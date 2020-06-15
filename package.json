@@ -1,0 +1,27 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm start",
+		"dev": "nodemon start"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.19.0",
+		"content-filter": "^1.1.2",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongo-sanitize": "^1.1.0",
+		"mongodb": "^3.5.9",
+		"nodemailer": "^6.4.8",
+		"nodemailer-sendgrid-transport": "^0.2.0"
+	}
+}
